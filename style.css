@@ -1,5 +1,6 @@
 * {
 	font-family: 'PT Sans', sans-serif;
+	box-sizing: border-box;
 }
 
 body {
@@ -120,16 +121,12 @@ nav ul li a:hover {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 32%;
+  width: 33.3%;
   padding: 10px 10px;
-  margin-left: 5px;
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {
-	margin: 0 -5px;
-	margin-top: 25px;
-}
+.row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -153,4 +150,10 @@ nav ul li a:hover {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+
+footer {
+	background-color: gray;
+	text-align: center;
 }
